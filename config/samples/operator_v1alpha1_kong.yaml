@@ -1,0 +1,7 @@
+apiVersion: operator.gatewayapi.kong.com/v1alpha1
+kind: Kong
+metadata:
+  name: kong-sample
+spec:
+  # Add fields here
+  foo: bar

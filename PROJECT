@@ -1,0 +1,16 @@
+domain: gatewayapi.kong.com
+layout:
+- go.kubebuilder.io/v3
+projectName: konghq-operator
+repo: github.com/kong/konghq-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: gatewayapi.kong.com
+  group: operator
+  kind: Kong
+  path: github.com/kong/konghq-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"
