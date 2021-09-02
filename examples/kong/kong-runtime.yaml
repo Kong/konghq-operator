@@ -1,0 +1,10 @@
+apiVersion: operator.gatewayapi.kong.com/v1alpha1
+kind: Kong
+metadata:
+  name: kong-sample
+spec:
+  images:
+  - name: kong/kubernetes-ingress-controller
+    tag: 2.0.0
+  - name: kong/kong-gateway
+    tag: 2.5
