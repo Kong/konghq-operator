@@ -1,2 +1,2 @@
 # konghq-operator
-managing kong ingress controller, proxy etc resources using gateway api
+managing kong resources such as ingress controller, proxy etc using gateway api
