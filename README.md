@@ -1,2 +1,2 @@
 # konghq-operator
-operator managing kic/gateway lifecycle (deployment, upgrade, deletion) using gateway api
+managing kong controller and gateway resources using gateway api
